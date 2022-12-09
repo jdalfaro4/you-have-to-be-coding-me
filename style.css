@@ -68,6 +68,7 @@ header section ul li {
 
 .aboutmepara:hover {
    /*what makes you glow?*/
+   box-shadow: 0px 0px 15px 15px rgb(76, 76, 121);
 
 }
 
@@ -83,5 +84,5 @@ footer p {
     color: rgb(247, 247, 234);
     text-align: center;
     font-size: 30px;
-    padding: 3%;
+    padding: 2.5%;
 }
