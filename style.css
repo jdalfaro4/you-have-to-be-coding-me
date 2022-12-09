@@ -63,7 +63,12 @@ header section ul li {
     border-color: rgb(76, 76, 121);
     border-width: 5px;
     padding: 5px;
-    background:linear-gradient(rgb(247, 247, 234), rgb(76, 76, 121))
+    background:linear-gradient(rgb(247, 247, 234), rgb(76, 76, 121));
+}
+
+.aboutmepara:hover {
+   /*what makes you glow?*/
+
 }
 
 .aboutmepic{
