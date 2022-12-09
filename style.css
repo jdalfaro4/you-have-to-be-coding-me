@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: rgb(195, 194, 194);
+    background-color: rgb(247, 247, 234);
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(1, 1, 95);
-    color: rgba(211, 211, 211, 0.862);
+    background-color: rgb(24, 8, 82);
+    color: rgb(247, 247, 234);
 }
 
 header h1 {
@@ -25,23 +25,35 @@ header section {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
+    font-size: 32px;
+    color:rgba(211, 211, 211, 0.862)
 
 }
 
 header section ul{
-    list-style-type: none;
+
 }
 
 header section ul li {
     display: inline-block;
     margin-left: 25px;
-    color: grey;
+    color: rgb(247, 247, 234);
+    
 }   
 
-.aboutmetitle h1 {
-font-size: 450%;
-font-family: 'Arial', Helvetica, sans-serif;
-margin: 4%;
+.aboutmetitle {
+    display: inline-block;
+    font-size: 300%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 4%;
+    color: rgb(76, 76, 121);
+    float: left;
+}
 
+.aboutmepara {
+    display: flex;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    float: right;
+    margin: 3%;
 }
