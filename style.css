@@ -18,6 +18,15 @@ main{
     padding: 0px;
 }
 
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 3px;
+    background-image: url("./images/nebula-stars-space-green-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     background:linear-gradient(var(--background-color), var(--secondary-color));
     padding: 0px;
