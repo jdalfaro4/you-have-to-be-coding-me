@@ -81,7 +81,7 @@ a:link{
 }
 
 .aboutmepara {
-    inline-size: 950px;
+    inline-size: 750px;
     overflow-wrap: break-word;
     float: right;
     margin: 3%;
@@ -108,8 +108,8 @@ a:link{
     border-radius: 3%;
     box-shadow: 14px 14px 5px rgb(0, 0, 0);
     margin: 3.5em;
-    height: 300px;
-    width: 270px;
+    height: 360px;
+    width: 300px;
     display: block;
 }
 
@@ -144,10 +144,11 @@ article li {
 
 
 .workimage1 {
-    width: 900px;
+    width: 70%;
     height: 600px;
     float: right;
     margin-right: 5em;
+    margin-left: 5em;
     margin: 2em;
     border-style: solid;
     border-width: 5px;
