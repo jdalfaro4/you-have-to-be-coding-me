@@ -205,3 +205,10 @@ footer {
     margin-top: 33em;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 600px){
+    .h-section-tabs {
+        font-size: 15px;
+    }   
+}
+
