@@ -203,11 +203,11 @@ footer {
     overflow: hidden;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 390px){
 
     header h1 {
         display: inline-block;
-        font-size: 37px;
+        font-size: 25px;
         background-color: var(--f-background);
         padding: 1%;
         padding-left: 5%;
@@ -215,10 +215,26 @@ footer {
         margin-top: 1.5px;
     }
 
+    .aboutmepara {
+        inline-size: 370px;
+        overflow-wrap: break-word;
+        float: right;
+        margin: 3%;
+        font-family: Helvetica, sans-serif;
+        color: var(--f-background);
+        font-size: 25px;
+        border: solid;
+        border-radius: 3%;
+        border-color: var(--terciary-color);
+        border-width: 5px;
+        padding: 5px;
+        background:linear-gradient(var(--background-color), var(--secondary-color));
+    }
+
         .h-section-tabs {
         display: block;
         color: var(--f-background);
-        font-size: 22px;
+        font-size: 15px;
         text-decoration-style: none;
         float: right;
     }   
@@ -233,14 +249,20 @@ footer {
 
     .contactmetitle {
         float: left;
-        font-size: 250%;
+        font-size: 200%;
         font-family: 'Arial', Helvetica, sans-serif;
         margin: 5%;
-        margin-top: 250px;
+        margin-top: 50px;
         color: var(--f-background);
         
     }
 
+    .contactme{
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+    }
+    
     .worktitle {
         float: left;
         font-size: 200%;
@@ -251,8 +273,8 @@ footer {
     }
 
     .workimage1 {
-        width: 70%;
-        height: 400px;
+        width: 87%;
+        height: 200px;
         float: right;
         margin-right: 5em;
         margin-left: 5em;
@@ -266,8 +288,8 @@ footer {
 
     .workimage2 {
         position: relative;
-        width: 300px;
-        height: 150px;
+        width: 250px;
+        height: 125px;
         float: right;
         margin-right: 5em;
         margin: 2em;
@@ -278,8 +300,8 @@ footer {
     }
 
     .workimage3 {
-        width: 300px;
-        height: 150px;
+        width: 250px;
+        height: 125px;
         float: right;
         margin-right: 5em;
         margin: 2em;
@@ -290,7 +312,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1018px) {
+@media screen and (min-width: 820px) {
     .worktitle {
         float: left;
         font-size: 250%;
